@@ -122,3 +122,15 @@ main{
     margin-top: 18px;
 }
 
+.closed{
+    width: 78px;
+    height: 768px;
+    background-color: var(--green);
+    font-family: 'Poppins', sans-serif;
+    transition: 0.2s;
+}
+
+.closed .top .menu{
+    margin-left: 29px;
+}
+
