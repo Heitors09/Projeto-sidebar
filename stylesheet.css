@@ -23,6 +23,7 @@ box-sizing: border-box;
     background-color: var(--green);
     font-family: 'Poppins', sans-serif;
     width: 250px;
+    transition: 0.5s;
 
 }
 
@@ -127,10 +128,19 @@ main{
     height: 768px;
     background-color: var(--green);
     font-family: 'Poppins', sans-serif;
-    transition: 0.2s;
+    transition: 0.5s;
 }
 
 .closed .top .menu{
     margin-left: 29px;
 }
 
+.closed .perfil{
+    width: 79px;
+    height: 60px;
+
+}
+
+.closed .perfil svg{
+    margin-left: 28px;
+}
