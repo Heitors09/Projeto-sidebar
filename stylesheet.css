@@ -14,8 +14,9 @@ box-sizing: border-box;
 }
 
 .container{
-    display: grid;
-    grid-template-columns: 1fr 7fr;
+    /* display: grid;
+    grid-template-columns: 1fr 7fr; */
+    display: flex;
 }
 
 .open{
@@ -24,6 +25,7 @@ box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     width: 250px;
     transition: 0.5s;
+    flex-shrink: 0;
 
 }
 
@@ -78,11 +80,10 @@ main{
 }
 
 .open ul li:hover{
-       border-radius: 12px;
        background-color: var(--light-green);
        cursor: pointer;
        transition: 0.2s;
-    
+
 }
 
  .top svg:hover{
@@ -149,7 +150,6 @@ main{
     margin-left: 28px;
 }
 
-
-ul p{
-    transition: 2s;
+.closed .top .logo, .closed .perfil img, .closed .id,.closed ul p{
+    display: none;
 }
